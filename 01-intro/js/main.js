@@ -12,7 +12,6 @@ if(7 === 7) {
 console.log('numero despues del bloque: ', numero)
 
 
-
 // console.log(greeting)
 
 console.log(window)
@@ -41,8 +40,8 @@ console.log('Variable musica antes del bloque: ', musica) // Rock
     console.log('Variable musica dentro del bloque: ', musica)
 }
 
+// var musica = ""
 console.log('Vairable musica despues del bloque: ', musica) 
-
 
 // output
 // Rock
@@ -63,19 +62,45 @@ musica1 = "Salsa"
 
 console.log('Vairable musica despues del bloque: ', musica1) 
 
-// output
-// Rock
-// Pop
-// Rock
+// // output
+// // Rock
+// // Pop
+// // Rock
 
-const NAME = "Fernanda"
+// const NAME = "Fernanda"
+
+// console.log(NAME)
+
+// {
+//     const NAME = "Jonatan"
+//     console.log(NAME)
+// }
+
+// reasignacion
+// NAME = "Jonatan" // no es permitido+
+
+console.log('---------const-----------')
+
+const NAME = "Reynita"
 
 console.log(NAME)
 
-{
-    const NAME = "Jonatan"
-    console.log(NAME)
+// NAME = "Luis"
+
+const arrayNumbers = [1,2,4,5,6]
+
+console.log(arrayNumbers)
+
+arrayNumbers.push(10)
+
+console.log(arrayNumbers)
+
+const obje = {
+    name: "Fernanda",
+    lastName: "Palacios"
 }
 
-// // reasignacion
-// NAME = "Jonatan"
+console.log(obje)
+obje.age = 25
+
+console.log(obje)
