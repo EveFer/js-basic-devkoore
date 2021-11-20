@@ -97,3 +97,90 @@ function evaluarSiEsMayor(valor1, valor2) {
     return result
 }
 console.log(evaluarSiEsMayor(10,20))
+
+
+// EJERCICIOS
+
+// Ejercicio 1
+// Reciba en una variable el nombre y en otra los apellidos y me devuelva 
+// en una sola cadena el nombre en minuscula
+// y los apellidos mayusculas.
+
+
+// Ejercicio 2
+// Obtener el nombre completo del usuario e 
+// indicarle cuantos caracteres tiene su nombre.
+
+
+// Ejercicio 3
+//obtener el nombre completo del usuario
+//Contar cuántos caracteres tiene
+//si su nombre tiene menos de 15 caracteres, indicarle mediante un mensaje que su nombre es mmuy corto
+//si tiene más de 15 caracteres indicarle que su nombre es muy largo
+
+
+// Ejercicios 4
+//obtener el nombre completo del usuario
+//contar cuántas vocales tiene.
+
+/*
+Ejercicio 5:
+Del texto 
+"Cada estudiante tiene su ritmo, cada estudiante tiene su talento, y cada estudiante complementa al estudiante que tiene a su lado"
+Contar cuántas veces se usa la palabra "estudiante" y reemplazar todas las coincidencias por la palabra "Koder", 
+y mostrar el mensaje de nuevo al usuario
+*/
+
+
+/*
+Ejercicio 6:
+Pedir el nombre de una persona
+
+Verificar si el nombre termina con una vocal
+imprimir que Tu nombre termina con ${vocal}
+Sino
+imprimir que Tu nombre termina con ${consonante}
+-> Pedro
+-> Tu nombre termina con o
+
+*/
+
+
+/*
+Ejercicio 7:
+Crear un programa que permita al usuario retornar el numero de coincidencias de 
+una palabra en una frase que el mismo usuario ingrese.
+
+input:
+   palabra a buscar: 'Hola'
+   frase: 'Hola me llamo Fernanda Palacios. Hola Otra vez'
+   
+OutPut: 'El número de coincidenciad de ${palabra a buscar} es de 2 veces :D'
+*/
+
+/*
+Ejercicio 8:
+Pedir al usuario una oracion
+
+Imprimir un string con todas las vocales
+Imprimir un string con todas las consonantes
+
+*/
+
+/* Ejercicio 9 
+Comparar 2 string, y determinar cual de los dos es el más largo
+
+input: "string 1", "Some large string"
+Output: "el string {} es el más largo"
+*/
+
+/*
+Ejercicio 10: 
+Generar un nuevo string: (deducir lo que se debe hacer con base en el input y el output)
+input: "a very large string"
+output: "A VeRy lArGe sTrInG" 
+
+input: "abcdefg"
+output: "AbCdEfG"
+
+*/
